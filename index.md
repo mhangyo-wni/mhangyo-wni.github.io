@@ -1,5 +1,5 @@
 ---
 layout: default
 ---
-# Welcome to my JK Home Page!
+# 萩行正嗣のページ!
 
