@@ -1,7 +1,7 @@
 # Jekyll configuration
 
 name: "M.Hangyo's Homepage"
-description: A jekyll theme hoge
+description: "Masatsugu Hangyo's Homepage."
 
 # url is currently only used only for the RSS feed in feed.xml
 url: https://scotte.github.io/jekyll-clean
@@ -40,7 +40,6 @@ exclude: ['README.md', 'LICENSE']
 
 
 scholar:
-    # style: apa
     style: assets/bibliography/association-for-computational-linguistics.csl
     locale: en
 
