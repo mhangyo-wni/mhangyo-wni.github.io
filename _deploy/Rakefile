@@ -6,7 +6,7 @@ task :deploy do
   puts "! Change directory _deplay"
   cd "_deploy" do
     puts "! Push to master branch of GitHub"
-    sh "git add *"
+    sh "git add -f *"
     message = "deploy at #{Time.now}"
     begin
       sh "git commit -m \"#{message}\""
