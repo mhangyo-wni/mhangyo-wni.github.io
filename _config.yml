@@ -40,7 +40,8 @@ exclude: ['README.md', 'LICENSE']
 
 
 scholar:
-    style: apa
+    # style: apa
+    style: assets/bibliography/association-for-computational-linguistics.csl
     locale: en
 
     sort_by: none
@@ -51,8 +52,8 @@ scholar:
 
     source: ./_bibliography
     bibliography: references.bib
-    bibliography_template: "{{reference}}"
-
+    # bibliography_template: bib.html
+    
     replace_strings: true
     join_strings:    true
 
