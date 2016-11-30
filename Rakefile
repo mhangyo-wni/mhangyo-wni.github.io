@@ -6,6 +6,7 @@ task :deploy do
   sh "jekyll build"
   sh "rm -rf ~/tmp/gh-pages"
   sh "git clone -b master git@github.com:mhangyo-wni/mhangyo-wni.github.io.git ~/tmp/gh-pages"
+  sh "rm -rf ~/tmp/gh-pages/*"
   sh "cp -R _site/* ~/tmp/gh-pages"
   sh "cd ~/tmp/gh-pages"
   sh "git branch"
