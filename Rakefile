@@ -2,18 +2,20 @@
 desc "Begin a push static file to GitHub"
 task :deploy do
   puts "! Copy static file from _site to _deploy"
-  sh "cp -r _site/* _deploy/"
-  puts "! Change directory _deplay"
-  cd "_deploy" do
-    puts "! Push to master branch of GitHub"
-    sh "git add *"
-    message = "deploy at #{Time.now}"
-    begin
-      sh "git commit -m \"#{message}\""
-      sh "git push origin master:master"
-    rescue Exception => e
-      puts "! Error - git command abort"
-      exit -1
-    end
-  end
+  sh "rm -rf _site/*"
+  sh "jekyll build"
+  sh "rm -rf ~/tmp/gh-pages"
+  sh "git clone -b master git@github.com:mhangyo-wni/mhangyo-wni.github.io.git ~/tmp/gh-pages"
+  sh "cp -R _site/* ~/tmp/gh-pages"
+  sh "cd ~/tmp/gh-pages"
+  sh "git branch"
+  sh "git add -A"
+  sh "git status -s > /tmp/gitstatus"
+  sh "cat /tmp/gitstatus"
+  sh "if [ -s /tmp/gitstatus ]; then \
+         git commit -m 'Commit at CircleCI' ;\
+         git push origin master ;\
+      else \
+         echo 'no change source' ;\
+      fi"
 end
