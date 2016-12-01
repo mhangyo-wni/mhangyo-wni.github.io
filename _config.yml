@@ -36,7 +36,11 @@ highlighter: rouge
 markdown: kramdown
 gems: ['jekyll-paginate','jekyll/scholar']
 
-exclude: ['README.md', 'LICENSE']
+exclude:
+  - 'README.md'
+  - 'LICENSE'
+  - 'Rakefile'
+  - 'scripts'
 
 
 scholar:
