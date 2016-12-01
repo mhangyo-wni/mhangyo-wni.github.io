@@ -41,7 +41,7 @@ exclude:
   - 'LICENSE'
   - 'Rakefile'
   - 'scripts'
-
+  - 'cpanfile'
 
 scholar:
     style: assets/bibliography/association-for-computational-linguistics.csl
