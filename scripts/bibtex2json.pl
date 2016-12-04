@@ -26,20 +26,23 @@ while(my $file = readdir($INPUT_DIR) )
 				$entry_ref->{$field_name} = $entry->field($field_name);
 			}
 
-			$entry_ref->{date} = sprintf("%4d-%02d",$entry->field("year"),$entry->field("month"));
 			
+			$entry_ref->{date} = sprintf("%4d-%02d",$entry->field("year"),$entry->field("month"));
+
 			if($entry_ref->{type} eq "ARTICLE")
 			{
-				$entry_ref->{publised} = sprintf("%s, Vol. %d No. %d)",$entry->field("journal"),$entry->field("volume"),$entry->field("number"));
+				$entry_ref->{publised} = sprintf("%s, Vol. %d No. %d",$entry->field("journal"),$entry->field("volume"),$entry->field("number"));
+
 			}
 			elsif($entry_ref->{type} eq "INPROCEEDINGS")
 			{
-				$entry_ref->{publised} = sprintf("%s"),$entry->field("booktitle");
+				$entry_ref->{publised} = sprintf("%s",$entry->field("booktitle"));
 			}
 			elsif($entry_ref->{type} eq "PHDTHESIS")
 			{
-				$entry_ref->{publised} = sprintf("%s"),$entry->field("school");
+				$entry_ref->{publised} = sprintf("%s",$entry->field("school"));
 			}
+			
 
 			my @authors = $entry->author;
 			my @editors = $entry->editor;
