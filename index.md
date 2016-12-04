@@ -22,6 +22,12 @@ layout: default
 {% include publication.html %}
 {% endfor %}
 
+### 学士論文
+{% assign list = site.data.thesis | sort:"date" %}
+{% for publication in list reversed %}
+{% include publication.html %}
+{% endfor %}
+
 
 
 
