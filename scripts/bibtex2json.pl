@@ -36,7 +36,13 @@ while(my $file = readdir($INPUT_DIR) )
 			}
 			elsif($entry_ref->{type} eq "INPROCEEDINGS")
 			{
-				$entry_ref->{publised} = sprintf("%s",$entry->field("booktitle"));
+				if($entry->field("journal"))
+				{
+					$entry_ref->{publised} = sprintf("%s",$entry->field("journal"));									}
+				else
+				{
+					$entry_ref->{publised} = sprintf("%s",$entry->field("booktitle"));
+				}
 			}
 			elsif($entry_ref->{type} eq "PHDTHESIS")
 			{
