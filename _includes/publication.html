@@ -1,21 +1,26 @@
-<div style="text-indent:2em"> 
-<h4>{{ publication.title }}</h4>
-{% assign authors = publication.authors %}
-<h5>
-  <span class="text-muted">
+<div style="text-indent:1em">
+  <h4>{{ publication.title }}</h4>
+  {% assign authors = publication.authors %}
+  <h5 style="padding-left:1em;padding-bottom:0.05em">
+	<span class="text-muted">
+	  <p>
+		{% for author in authors %}
+		{% if authors.size >= 2 and author == authors.last %} and {% endif %}{{ author }}{% if authors.size > 2 and author != authors.last %}, {% endif %}
+		{% endfor %}
+	  </p>
+	  <p>
+		{{ publication.publised }}
+	  </p>
+	</span>
+	{% if publication.award %}
 	<p>
-	  {% for author in authors %}
-	  {% if authors.size >= 2 and author == authors.last %} and {% endif %}{{ author }}{% if authors.size > 2 and author != authors.last %}, {% endif %}
-	  {% endfor %}
+	  <font color="red">{{ publication.award }}</font>
 	</p>
+	{% endif %}
+	{% if publication.pdf %}
 	<p>
-	  {{ publication.publised }}
+	  <a href="{{ publication.pdf }}">pdf page</a>
 	</p>
-  </span>
-  {% if publication.award %}
-  <p>
-	<font color="red">{{ publication.award }}</font>
-  </p>
-  {% endif %}
-</h5>
+	{% endif %}
+  </h5>
 </div>
