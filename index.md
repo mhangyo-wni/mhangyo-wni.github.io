@@ -2,6 +2,12 @@
 layout: default
 ---
 
+# 経歴
+{% assign list = site.data.careers %}
+{% for career in list %}
+ - {{ career }}
+{% endfor %}
+
 # 発表文献
 
 ### 国際会議
