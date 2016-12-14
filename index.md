@@ -2,7 +2,11 @@
 layout: default
 ---
 
-# 経歴
+# 萩行 正嗣 (HONGYO, Masatsugu)
+## 株式会社ウェザーニューズ AIイノベーションセンター所属
+2014年3月、[京都大学黒橋・河原研究室](http://nlp.ist.i.kyoto-u.ac.jp/)にて博士(情報学)を取得。同年4月、株式会社ウェザーニューズに入社。現在は、自然言語処理や機械学習を活用した業務改善や新価値創造に取り組む一方で、機械学習技術の気象分野への応用に挑戦している。
+
+# 略歴
 {% assign list = site.data.careers %}
 {% for career in list %}
  - {{ career }}
@@ -35,5 +39,10 @@ layout: default
 {% endfor %}
 
 
+# 掲載情報等
+{% assign list = site.data.news | sort:"date" %}
+{% for article in list reversed %}
+{% include news.html %}
+{% endfor %}
 
 

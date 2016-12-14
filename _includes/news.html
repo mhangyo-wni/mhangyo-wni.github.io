@@ -1,0 +1,25 @@
+<div style="text-indent:1em">
+  <h4>{{ article.title }}</h4>
+
+  <h4 style="padding-left:14px;padding-bottom:0.0em">
+		{{ article.media }}
+  </h4>
+  <h5 style="padding-left:1em;padding-bottom:0.05em">
+
+	<span class="text-muted">
+	</span>
+	{% if article.comment %}
+	<p>
+	  {{ article.comment }}
+	</p>
+	{% endif %}
+	<p>
+	{% if article.article %}
+	  <a href="{{ article.article }}">web</a>. 
+	{% endif %}
+	{% if article.printed %}
+	  <a href="{{ article.article }}">印刷媒体</a>.
+	  {% endif %}
+	</p>
+  </h5>
+</div>
