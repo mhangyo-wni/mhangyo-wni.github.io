@@ -21,7 +21,7 @@ while(my $file = readdir($INPUT_DIR) )
 		if ($entry->parse_ok) {
 			my $entry_ref;
 			$entry_ref->{type} = $entry->type;
-			for my $field_name ("title","award","pdf")
+			for my $field_name ("title","award","pdf","comment")
 			{
 				$entry_ref->{$field_name} = $entry->field($field_name);
 			}

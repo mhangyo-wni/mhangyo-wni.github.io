@@ -6,9 +6,10 @@
       "date" : "2016-03",
       "pdf" : "http://www.anlp.jp/proceedings/annual_meeting/2016/pdf_dir/B2-4.pdf",
       "publised" : "言語処理学会第22回年次大会発表論文集",
-      "title" : "選択式天気情報を用いたソーシャルメディアからの有用投稿抽出",
+      "award" : null,
+      "comment" : null,
       "type" : "INPROCEEDINGS",
-      "award" : null
+      "title" : "選択式天気情報を用いたソーシャルメディアからの有用投稿抽出"
    },
    {
       "authors" : [
@@ -19,9 +20,10 @@
       "date" : "2016-03",
       "pdf" : "http://www.anlp.jp/proceedings/annual_meeting/2016/pdf_dir/P14-8.pdf",
       "publised" : "言語処理学会第22回年次大会発表論文集",
-      "title" : "マイクロブログにおける浸水害情報の解析",
+      "award" : null,
+      "comment" : null,
       "type" : "INPROCEEDINGS",
-      "award" : null
+      "title" : "マイクロブログにおける浸水害情報の解析"
    },
    {
       "authors" : [
@@ -32,9 +34,10 @@
       "date" : "2014-03",
       "pdf" : "http://www.anlp.jp/proceedings/annual_meeting/2014/pdf_dir/A5-4.pdf",
       "publised" : "言語処理学会第20回年次大会発表論文集",
-      "title" : "著者・読者表現および外界ゼロ照応を考慮したゼロ照応解析",
+      "award" : null,
+      "comment" : null,
       "type" : "INPROCEEDINGS",
-      "award" : null
+      "title" : "著者・読者表現および外界ゼロ照応を考慮したゼロ照応解析"
    },
    {
       "authors" : [
@@ -45,9 +48,10 @@
       "date" : "2012-05",
       "pdf" : "https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=81872&item_no=1&page_id=13&block_id=8",
       "publised" : "研究報告自然言語処理(NL206)",
-      "title" : "多様な文書の書き始めに対する意味関係タグ付きコーパスの構築",
+      "award" : null,
+      "comment" : null,
       "type" : "INPROCEEDINGS",
-      "award" : null
+      "title" : "多様な文書の書き始めに対する意味関係タグ付きコーパスの構築"
    },
    {
       "authors" : [
@@ -57,9 +61,10 @@
       "date" : "2011-03",
       "pdf" : "http://www.anlp.jp/proceedings/annual_meeting/2011/pdf_dir/A1-5.pdf",
       "publised" : "言語処理学会第17回年次大会発表論文集",
-      "title" : "構造化した属性表現に基づく国語辞典定義文の漸進的解釈",
+      "award" : null,
+      "comment" : null,
       "type" : "INPROCEEDINGS",
-      "award" : null
+      "title" : "構造化した属性表現に基づく国語辞典定義文の漸進的解釈"
    },
    {
       "authors" : [
@@ -69,9 +74,10 @@
       "date" : "2009-03",
       "pdf" : "http://www.anlp.jp/proceedings/annual_meeting/2009/pdf_dir/A2-1.pdf",
       "publised" : "言語処理学会第15回年次大会発表論文集",
-      "title" : "辞書定義文を用いた二字漢語の言い換え表現の生成",
+      "award" : null,
+      "comment" : null,
       "type" : "INPROCEEDINGS",
-      "award" : null
+      "title" : "辞書定義文を用いた二字漢語の言い換え表現の生成"
    },
    {
       "authors" : [
@@ -82,8 +88,9 @@
       "date" : "2008-05",
       "pdf" : "https://ipsj.ixsq.nii.ac.jp/ej/?action=pages_view_main&active_action=repository_view_main_item_detail&item_id=47713&item_no=1&page_id=13&block_id=8",
       "publised" : "情報処理学会研究報告自然言語処理(NL185)",
-      "title" : "表層・語彙的特徴量に基づくブログの面白さ分析",
+      "award" : "学生奨励賞受賞",
+      "comment" : null,
       "type" : "INPROCEEDINGS",
-      "award" : "学生奨励賞受賞"
+      "title" : "表層・語彙的特徴量に基づくブログの面白さ分析"
    }
 ]

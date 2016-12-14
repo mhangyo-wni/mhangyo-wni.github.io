@@ -8,9 +8,10 @@
       "date" : "2016-00",
       "pdf" : null,
       "publised" : "Proceedings of the 2nd Workshop on Noisy User-generated Text (WNUT)",
-      "title" : "Disaster Analysis using User-Generated Weather Report",
+      "award" : null,
+      "comment" : "Selected to oral presentation.",
       "type" : "INPROCEEDINGS",
-      "award" : null
+      "title" : "Disaster Analysis using User-Generated Weather Report"
    },
    {
       "authors" : [
@@ -21,9 +22,10 @@
       "date" : "2013-10",
       "pdf" : "http://www.aclweb.org/anthology/D13-1095",
       "publised" : "The 2013 Conference on Empirical Methods on Natural Language Processing (EMNLP2013)",
-      "title" : "Japanese Zero Reference Resolution Considering Exophora and Author/Reader Mentions.",
+      "award" : null,
+      "comment" : null,
       "type" : "INPROCEEDINGS",
-      "award" : null
+      "title" : "Japanese Zero Reference Resolution Considering Exophora and Author/Reader Mentions."
    },
    {
       "authors" : [
@@ -34,8 +36,9 @@
       "date" : "2012-11",
       "pdf" : "http://www.aclweb.org/anthology/Y12-1058",
       "publised" : "Proceedings of the 26th Pacific Asia Conference on Language, Information, and Computation (PACLIC2012)",
-      "title" : "Building a diverse document leads corpus annotated with semantic relations",
+      "award" : null,
+      "comment" : null,
       "type" : "INPROCEEDINGS",
-      "award" : null
+      "title" : "Building a diverse document leads corpus annotated with semantic relations"
    }
 ]

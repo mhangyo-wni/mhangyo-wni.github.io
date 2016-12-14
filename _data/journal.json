@@ -8,9 +8,10 @@
       "date" : "2014-09",
       "pdf" : "https://www.jstage.jst.go.jp/article/jnlp/21/3/21_563/_article/-char/ja/",
       "publised" : "自然言語処理, Vol. 21 No. 3",
-      "title" : "外界照応および著者・読者表現を考慮した日本語ゼロ照応解析",
+      "award" : null,
+      "comment" : null,
       "type" : "ARTICLE",
-      "award" : null
+      "title" : "外界照応および著者・読者表現を考慮した日本語ゼロ照応解析"
    },
    {
       "authors" : [
@@ -21,8 +22,9 @@
       "date" : "2014-07",
       "pdf" : "https://www.jstage.jst.go.jp/article/jnlp/21/2/21_213/_article/-char/ja/",
       "publised" : "自然言語処理, Vol. 21 No. 2",
-      "title" : "多様な文書の書き始めに対する意味関係タグ付きコーパスの構築とその分析",
+      "award" : null,
+      "comment" : null,
       "type" : "ARTICLE",
-      "award" : null
+      "title" : "多様な文書の書き始めに対する意味関係タグ付きコーパスの構築とその分析"
    }
 ]
