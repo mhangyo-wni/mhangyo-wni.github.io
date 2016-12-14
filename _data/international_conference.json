@@ -1,6 +1,19 @@
 [
    {
       "authors" : [
+         "Yasunobu Asakura",
+         "Masatsugu Hangyo",
+         "Mamoru Komachi"
+      ],
+      "date" : "2016-00",
+      "pdf" : null,
+      "publised" : "Proceedings of the 2nd Workshop on Noisy User-generated Text (WNUT)",
+      "title" : "Disaster Analysis using User-Generated Weather Report",
+      "type" : "INPROCEEDINGS",
+      "award" : null
+   },
+   {
+      "authors" : [
          "Masatsugu Hangyo",
          "Daisuke Kawahara",
          "Sadao Kurohashi"

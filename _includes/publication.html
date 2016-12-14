@@ -12,6 +12,12 @@
 		{{ publication.publised }}
 	  </p>
 	</span>
+	{% if publication.comment %}
+	<p>
+	  {{ publication.comment }}
+	</p>
+	{% endif %}
+
 	{% if publication.award %}
 	<p>
 	  <font color="red">{{ publication.award }}</font>
