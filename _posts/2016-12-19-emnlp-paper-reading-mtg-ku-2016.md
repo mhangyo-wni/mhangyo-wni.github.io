@@ -70,7 +70,7 @@ John Lalor; Hao Wu; hong yu
 
 ----------------
 
-- <h4>：SQuAD: 100,000+ Questions for Machine Comprehension of Text</h4>
+- <h4>SQuAD: 100,000+ Questions for Machine Comprehension of Text</h4>
 Pranav Rajpurkar; Jian Zhang; Konstantin Lopyrev; Percy Liang
 [pdf](http://www.aclweb.org/anthology/D/D16/D16-1264.pdf)
 
@@ -79,7 +79,7 @@ Pranav Rajpurkar; Jian Zhang; Konstantin Lopyrev; Percy Liang
 
 ----------------
 
-- <h4>：Does String-Based Neural MT Learn Source Syntax?</h4>
+- <h4>Does String-Based Neural MT Learn Source Syntax?</h4>
 Xing Shi; Inkit Padhi; Kevin Knight
 [pdf](http://www.aclweb.org/anthology/D/D16/D16-1159.pdf)
 
@@ -93,7 +93,7 @@ JSTの中澤さんの紹介。Neural MTが文法的な内容を学習してい�
 
 ----------------
 
-- <h4>：Why Neural Translations are the Right Length</h4>
+- <h4>Why Neural Translations are the Right Length</h4>
 Xing Shi; Kevin Knight; Deniz Yuret
 [pdf](http://www.aclweb.org/anthology/D/D16/D16-1248.pdf)
 
