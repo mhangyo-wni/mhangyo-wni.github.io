@@ -8,6 +8,7 @@ comments: false
 12月8日に京都大学黒橋・河原研で開催されたEMNLPの論文読み会に参加してきました。
 
 私は
+
 - <h4>Distinguishing Past, On-going, and Future Events: The EventStatus Corpus</h4>
 Ruihong Huang; Ignacio Cases; Dan Jurafsky; Cleo Condoravdi; Ellen Riloff<br>
 [pdf](www.aclweb.org/anthology/D/D16/D16-1005.pdf)
